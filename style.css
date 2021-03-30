@@ -1,0 +1,55 @@
+body{
+    background-color: #90BAAD;
+    color: #5E503F;
+}
+
+.textarea, #preview, footer{
+    background: #A1E5AB;
+    color: #493548;
+}
+
+.textarea{
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 0px 20px;
+    outline: none;
+    resize: none;
+}
+
+.textarea:focus{
+    box-shadow: 0 0 3px 3px royalblue;
+}
+
+#preview{
+    padding: 40px;
+    border: 2px solid royalblue;
+    border-radius: 20px 0px;
+}
+
+#preview code{
+    background-color: #90BAAD;
+    color: #000;
+    border-radius: 4px;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#preview pre{
+    background-color: #90BAAD;
+    padding: 10px;
+}
+
+#preview img {
+    width: 100%;
+}
+
+footer {
+    font-size: 20px;
+}
+
+footer a {
+    color: royalblue;
+}
+
+@media (min-width: 768px) { .textarea{width: 80% !important;} }
