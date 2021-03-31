@@ -2,7 +2,7 @@ body{
     background-color: #90BAAD;
 }
 
-.textarea, #preview, footer{
+.textarea, #preview{
     background: #A1E5AB;
     color: #5E503F;
 }
@@ -54,8 +54,4 @@ footer {
     font-size: 20px;
 }
 
-footer a {
-    color: royalblue;
-}
-
-@media (min-width: 768px) { .textarea, .toolbar:first-child{width: 80% !important;} }
+@media (min-width: 768px) { .textarea, .toolbar:first-child {width: 80% !important}}
